@@ -1,0 +1,53 @@
+#top-image {
+  background: url("pc-images/g2.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  position: top top;
+  min-height: 300px;
+  text-align: center;
+}
+.top-image-title {
+  color: rgb(255, 255, 255) !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: rgb(255, 255, 255) !important;
+}
+
+.input-container,
+.details {
+  padding: 30px;
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  min-height: 100%;
+}
+.input,
+textarea {
+  width: 100%;
+  display: block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: Regular;
+  outline: rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+#contactus {
+  background-color: hsl(0, 0%, 98%);
+}
+.container-fluid {
+  padding: 30px 15% 7% 15%;
+  position: relative;
+}
+.boxes {
+  margin-top: -100px;
+}
+.cta-btn {
+  padding: 10px 20px;
+  font-size: 14px;
+}

@@ -1,0 +1,43 @@
+#top-image{
+	background:url('pc-images/gallerybg1.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+	position:top top;
+	min-height:300px;
+	text-align:center;
+}
+.navbar-brand,.nav-link {
+	color:black!important;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 100%;
+}
+.gallery > .col {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+.gallery > .col > img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .col {
+    flex: 50%;
+    min-width: 50%;
+  }
+}
+
+
+footer{
+	background-color:#3E3E3E;
+	color:white;
+}
